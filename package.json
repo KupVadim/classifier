@@ -2,5 +2,8 @@
   "name": "classifier",
   "version": "0.0.0",
   "main": "app.js",
-  "author": "shuvalov-anton"
+  "author": "shuvalov-anton",
+  "dependencies": {
+    "natural": "~0.1.21"
+  }
 }

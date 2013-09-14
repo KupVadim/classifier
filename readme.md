@@ -1,6 +1,18 @@
-# How to
+# Что это?
 
-1. Clone this repo
-2. cd to repo dir
-3. do `npm i`
-4. do `node app.js`
+Пример классификации русскоязычных текстов с помощью библиотеки Natural на NodeJS
+
+
+# Как использовать
+
+Устанавливаете, экспериментируете со своими данными в `data.js`.
+
+
+# Установка 
+
+```
+git clone git@github.com:shuvalov-anton/classifier.git
+cd classifier
+npm i
+node app.js
+```

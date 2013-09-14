@@ -2,10 +2,8 @@
 
 var data = require('./data');
 
-
 var natural = require('natural'),
-  porterStemmer = natural.PorterStemmerRu,
-  classifier = new natural.BayesClassifier(porterStemmer);
+  classifier = new natural.BayesClassifier(natural.PorterStemmerRu);
 
 
 for (var i = 0; i < data.good.length; i++) {
@@ -32,6 +30,3 @@ console.log('Test on bads');
 for (var i = 0; i < data.test_bad.length; i++) {
   console.log("> ",classifier.classify(data.test_bad[i]));
 };
-
-var raw = JSON.stringify(classifier);
-console.log(raw)
